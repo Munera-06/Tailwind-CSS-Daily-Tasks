@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Explorer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+  <header class="h-20 bg-white flex items-center justify-between px-8 shadow-sm">
+    <h1 class="text-2xl font-bold text-blue-600">Travel Explorer</h1>
+
+    <nav class="hidden md:flex gap-8">
+      <a href="#home" class="hover:text-blue-600">Home</a>
+      <a href="#places" class="hover:text-blue-600">Places</a>
+      <a href="#about" class="hover:text-blue-600">About</a>
+      <a href="#gallery" class="hover:text-blue-600">Gallery</a>
+      <a href="#packages" class="hover:text-blue-600">Packages</a>
+      <a href="#tips" class="hover:text-blue-600">Travel Tips</a>
+      <a href="#reviews" class="hover:text-blue-600">Reviews</a>
+      <a href="#contact" class="hover:text-blue-600">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="h-screen bg-blue-50 flex items-center px-8 md:px-20">
+    <div class="max-w-6xl mx-auto w-full grid md:grid-cols-2 gap-12 items-center">
+
+      <div>
+        <p class="text-blue-600 font-medium mb-4">Explore New Places</p>
+
+        <h2 class="text-5xl md:text-6xl font-bold leading-tight mb-6">
+          Discover Your Next Adventure
+        </h2>
+
+        <p class="text-gray-600 text-lg leading-8 mb-8">
+          Find beautiful destinations, explore new cultures and create unforgettable memories.
+        </p>
+
+        <button class="bg-blue-600 text-white px-7 py-3 rounded-md hover:bg-blue-700">
+          Explore Now
+        </button>
+      </div>
+
+      <img
+        src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1000&q=80"
+        alt="Travel destination"
+        class="w-full h-[420px] object-cover rounded-xl"
+      >
+
+    </div>
+  </section>
+
+  <section id="places" class="h-screen bg-white flex items-center px-8 md:px-20">
+    <div class="max-w-6xl mx-auto w-full">
+
+      <div class="text-center mb-10">
+        <h2 class="text-4xl font-bold mb-3">Popular Destinations</h2>
+        <p class="text-gray-500">Places worth visiting</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+
+        <div class="rounded-xl overflow-hidden border bg-white">
+          <img
+            src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=900&q=80"
+            alt="India"
+            class="w-full h-72 object-cover"
+          >
+
+          <div class="p-6">
+            <h3 class="text-2xl font-semibold mb-2">India</h3>
+            <p class="text-gray-500 leading-7">
+              Culture, history and beautiful landscapes.
+            </p>
+          </div>
+        </div>
+
+        <div class="rounded-xl overflow-hidden border bg-white">
+          <img
+            src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=900&q=80"
+            alt="Paris"
+            class="w-full h-72 object-cover"
+          >
+
+          <div class="p-6">
+            <h3 class="text-2xl font-semibold mb-2">Paris</h3>
+            <p class="text-gray-500 leading-7">
+              Beautiful streets, art and architecture.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="h-screen bg-gray-100 flex items-center px-8 md:px-20">
+    <div class="max-w-6xl mx-auto w-full grid md:grid-cols-2 gap-14 items-center">
+
+      <img
+        src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=1000&q=80"
+        alt="Travel"
+        class="w-full h-[420px] object-cover rounded-xl"
+      >
+
+      <div>
+        <p class="text-blue-600 font-medium mb-3">About Us</p>
+
+        <h2 class="text-4xl md:text-5xl font-bold mb-6">
+          Travel Made Simple
+        </h2>
+
+        <p class="text-gray-600 text-lg leading-8 mb-5">
+          Travel Explorer helps travelers discover interesting destinations
+          and plan simple trips without making the process complicated.
+        </p>
+
+        <p class="text-gray-600 leading-8">
+          From peaceful beaches to busy cities, explore different places
+          and find something that matches your travel style.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="gallery" class="h-screen bg-white flex items-center px-8 md:px-20">
+    <div class="max-w-6xl mx-auto w-full">
+
+      <div class="text-center mb-10">
+        <h2 class="text-4xl font-bold mb-3">Travel Gallery</h2>
+        <p class="text-gray-500">A few places from around the world</p>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-5">
+
+        <img
+          src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=700&q=80"
+          alt="Mountain"
+          class="w-full h-64 object-cover rounded-lg"
+        >
+
+        <img
+          src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=700&q=80"
+          alt="Beach"
+          class="w-full h-64 object-cover rounded-lg"
+        >
+
+        <img
+          src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=700&q=80"
+          alt="Architecture"
+          class="w-full h-64 object-cover rounded-lg"
+        >
+
+        <img
+          src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?auto=format&fit=crop&w=700&q=80"
+          alt="Lake"
+          class="w-full h-64 object-cover rounded-lg"
+        >
+
+      </div>
+    </div>
+  </section>
+
+  <section id="packages" class="h-screen bg-blue-50 flex items-center px-8 md:px-20">
+    <div class="max-w-6xl mx-auto w-full">
+
+      <div class="text-center mb-10">
+        <h2 class="text-4xl font-bold mb-3">Travel Packages</h2>
+        <p class="text-gray-500">Choose a package for your next trip</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-7">
+
+        <div class="bg-white p-7 rounded-xl border">
+          <h3 class="text-2xl font-semibold mb-3">Weekend Trip</h3>
+          <p class="text-gray-500 mb-5">Perfect for a short getaway.</p>
+          <p class="text-3xl font-bold text-blue-600 mb-5">₹4,999</p>
+          <button class="w-full border border-blue-600 text-blue-600 py-3 rounded-md hover:bg-blue-600 hover:text-white">
+            View Details
+          </button>
+        </div>
+
+        <div class="bg-white p-7 rounded-xl border">
+          <h3 class="text-2xl font-semibold mb-3">Family Tour</h3>
+          <p class="text-gray-500 mb-5">Enjoy a comfortable family vacation.</p>
+          <p class="text-3xl font-bold text-blue-600 mb-5">₹9,999</p>
+          <button class="w-full border border-blue-600 text-blue-600 py-3 rounded-md hover:bg-blue-600 hover:text-white">
+            View Details
+          </button>
+        </div>
+
+        <div class="bg-white p-7 rounded-xl border">
+          <h3 class="text-2xl font-semibold mb-3">Adventure Trip</h3>
+          <p class="text-gray-500 mb-5">Explore nature and exciting places.</p>
+          <p class="text-3xl font-bold text-blue-600 mb-5">₹7,499</p>
+          <button class="w-full border border-blue-600 text-blue-600 py-3 rounded-md hover:bg-blue-600 hover:text-white">
+            View Details
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="tips" class="h-screen bg-white flex items-center px-8 md:px-20">
+    <div class="max-w-6xl mx-auto w-full">
+
+      <div class="text-center mb-10">
+        <h2 class="text-4xl font-bold mb-3">Travel Tips</h2>
+        <p class="text-gray-500">Simple tips for a better journey</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-7">
+
+        <div class="bg-gray-50 p-8 rounded-xl border">
+          <h3 class="text-xl font-semibold mb-4">Pack Light</h3>
+          <p class="text-gray-600 leading-7">
+            Carry only the essentials to make your journey easier and more comfortable.
+          </p>
+        </div>
+
+        <div class="bg-gray-50 p-8 rounded-xl border">
+          <h3 class="text-xl font-semibold mb-4">Plan Ahead</h3>
+          <p class="text-gray-600 leading-7">
+            Check your travel route, accommodation and important details before leaving.
+          </p>
+        </div>
+
+        <div class="bg-gray-50 p-8 rounded-xl border">
+          <h3 class="text-xl font-semibold mb-4">Stay Safe</h3>
+          <p class="text-gray-600 leading-7">
+            Keep your important documents safe and always be aware of your surroundings.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="reviews" class="h-screen bg-gray-100 flex items-center px-8 md:px-20">
+    <div class="max-w-5xl mx-auto w-full">
+
+      <div class="text-center mb-10">
+        <h2 class="text-4xl font-bold mb-3">Traveler Reviews</h2>
+        <p class="text-gray-500">What travelers say about their experience</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-7">
+
+        <div class="bg-white p-7 rounded-xl shadow-sm">
+          <p class="text-gray-600 leading-7 mb-5">
+            "The trip was simple to plan and the destinations were amazing."
+          </p>
+          <h3 class="font-semibold">Rahul</h3>
+          <p class="text-sm text-gray-500">Chennai</p>
+        </div>
+
+        <div class="bg-white p-7 rounded-xl shadow-sm">
+          <p class="text-gray-600 leading-7 mb-5">
+            "I really enjoyed exploring the new places with my family."
+          </p>
+          <h3 class="font-semibold">Priya</h3>
+          <p class="text-sm text-gray-500">Bangalore</p>
+        </div>
+
+        <div class="bg-white p-7 rounded-xl shadow-sm">
+          <p class="text-gray-600 leading-7 mb-5">
+            "The travel experience was comfortable and enjoyable."
+          </p>
+          <h3 class="font-semibold">Arun</h3>
+          <p class="text-sm text-gray-500">Coimbatore</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="h-screen bg-blue-50 flex items-center px-8 md:px-20">
+    <div class="max-w-3xl mx-auto w-full">
+
+      <div class="text-center mb-10">
+        <p class="text-blue-600 font-medium mb-3">Contact Us</p>
+
+        <h2 class="text-4xl md:text-5xl font-bold mb-4">
+          Plan Your Next Trip
+        </h2>
+
+        <p class="text-gray-600">
+          Have a destination in mind? Send us a message.
+        </p>
+      </div>
+
+      <form class="bg-white p-8 rounded-xl shadow-sm space-y-5">
+
+        <input
+          type="text"
+          placeholder="Your Name"
+          class="w-full border rounded-md px-4 py-3 outline-none focus:border-blue-600"
+        >
+
+        <input
+          type="email"
+          placeholder="Your Email"
+          class="w-full border rounded-md px-4 py-3 outline-none focus:border-blue-600"
+        >
+
+        <textarea
+          rows="5"
+          placeholder="Your Message"
+          class="w-full border rounded-md px-4 py-3 outline-none focus:border-blue-600"
+        ></textarea>
+
+        <button
+          type="submit"
+          class="w-full bg-blue-600 text-white py-3 rounded-md hover:bg-blue-700"
+        >
+          Send Message
+        </button>
+
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-blue-600 text-white text-center py-5">
+    <p>© 2026 Travel Explorer. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
