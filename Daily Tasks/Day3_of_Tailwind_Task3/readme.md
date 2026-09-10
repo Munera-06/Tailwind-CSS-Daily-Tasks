@@ -1,6 +1,6 @@
 ## 📌 Project Overview
 
-This is my **Day 3 Tailwind CSS Task**, created using **HTML and Tailwind CSS**.  
+This is my **Day 3 Tailwind CSS Task**, created using **HTML and Tailwind CSS**.
 
 The webpage is designed as a **travel-themed website** that presents beautiful destinations, travel information, and visually engaging content.
 
