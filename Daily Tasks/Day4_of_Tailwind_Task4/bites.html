@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Bites Restaurant</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-stone-50 text-stone-800">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 left-0 w-full bg-white shadow-md z-50">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <h1 class="text-2xl font-bold text-orange-700">Urban Bites</h1>
+
+            <div class="hidden md:flex gap-7 text-sm font-medium">
+                <a href="#home" class="hover:text-orange-600">Home</a>
+                <a href="#menu" class="hover:text-orange-600">Menu</a>
+                <a href="#specials" class="hover:text-orange-600">Specials</a>
+                <a href="#about" class="hover:text-orange-600">About</a>
+                <a href="#gallery" class="hover:text-orange-600">Gallery</a>
+                <a href="#contact" class="hover:text-orange-600">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Page -->
+    <section id="home" class="pt-20">
+
+        <!-- Section 1 -->
+        <div class="min-h-screen bg-[url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=80')] bg-cover bg-center flex items-center">
+            <div class="w-full min-h-screen bg-black/55 flex items-center">
+                <div class="max-w-7xl mx-auto px-6 text-white">
+                    <p class="text-orange-400 font-semibold tracking-wide">WELCOME TO URBAN BITES</p>
+                    <h2 class="text-5xl md:text-7xl font-bold mt-4 max-w-4xl">
+                        Fresh Food Made With Simple Ingredients
+                    </h2>
+                    <p class="mt-6 text-lg md:text-xl text-stone-200 max-w-2xl">
+                        Enjoy delicious meals, refreshing drinks and warm hospitality in a comfortable place.
+                    </p>
+                    <div class="mt-8 flex gap-4">
+                        <button class="bg-orange-600 px-7 py-3 rounded-md font-semibold hover:bg-orange-700">
+                            View Menu
+                        </button>
+                        <button class="border border-white px-7 py-3 rounded-md font-semibold hover:bg-white hover:text-black">
+                            Book Table
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 2 -->
+        <div class="min-h-screen flex items-center bg-orange-50">
+            <div class="max-w-7xl mx-auto px-6 w-full">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <p class="text-orange-600 font-semibold">OUR STORY</p>
+                        <h2 class="text-4xl md:text-5xl font-bold mt-3">
+                            A Place For Good Food And Good Moments
+                        </h2>
+                        <p class="mt-6 text-lg text-stone-600 leading-8">
+                            Urban Bites started with a simple idea — serve tasty food using fresh ingredients
+                            and create a comfortable space where friends and families can spend quality time.
+                        </p>
+                        <p class="mt-4 text-stone-600 leading-7">
+                            From quick lunches to relaxed dinners, our menu has something for everyone.
+                        </p>
+                        <button class="mt-7 bg-stone-900 text-white px-7 py-3 rounded-md">
+                            Discover More
+                        </button>
+                    </div>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1100&q=80"
+                        class="w-full h-[520px] object-cover rounded-xl"
+                        alt="Restaurant interior"
+                    >
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 3 -->
+        <div class="min-h-screen flex items-center bg-stone-900 text-white">
+            <div class="max-w-7xl mx-auto px-6 w-full">
+                <div class="text-center">
+                    <p class="text-orange-400 font-semibold">TODAY'S FAVORITES</p>
+                    <h2 class="text-4xl md:text-5xl font-bold mt-3">Popular From Our Kitchen</h2>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-7 mt-12">
+                    <div class="bg-stone-800 rounded-xl overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=900&q=80" class="w-full h-72 object-cover" alt="Pizza">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold">Classic Pizza</h3>
+                            <p class="mt-3 text-stone-300">Fresh vegetables, cheese and our homemade sauce.</p>
+                            <p class="mt-4 text-orange-400 font-bold text-xl">₹399</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-stone-800 rounded-xl overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=80" class="w-full h-72 object-cover" alt="Burger">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold">Urban Burger</h3>
+                            <p class="mt-3 text-stone-300">Crispy vegetables, creamy sauce and a soft bun.</p>
+                            <p class="mt-4 text-orange-400 font-bold text-xl">₹299</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-stone-800 rounded-xl overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=900&q=80" class="w-full h-72 object-cover" alt="Pasta">
+                        <div class="p-6">
+                            <h3 class="text-2xl font-bold">Creamy Pasta</h3>
+                            <p class="mt-3 text-stone-300">Creamy sauce, herbs and fresh vegetables.</p>
+                            <p class="mt-4 text-orange-400 font-bold text-xl">₹349</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Menu Page -->
+    <section id="menu" class="pt-20">
+
+        <!-- Section 4 -->
+        <div class="min-h-screen flex items-center bg-white">
+            <div class="max-w-7xl mx-auto px-6 w-full">
+                <div class="text-center">
+                    <p class="text-orange-600 font-semibold">OUR MENU</p>
+                    <h2 class="text-5xl font-bold mt-3">Start Your Meal With Something Delicious</h2>
+                    <p class="mt-5 text-stone-600 max-w-2xl mx-auto text-lg">
+                        Explore our selection of freshly prepared dishes made for every mood and occasion.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-8 mt-14">
+                    <div class="border rounded-xl p-8">
+                        <h3 class="text-2xl font-bold text-orange-700">Starters</h3>
+                        <div class="mt-6 space-y-6">
+                            <div class="flex justify-between border-b pb-4">
+                                <div>
+                                    <h4 class="font-semibold">Garlic Bread</h4>
+                                    <p class="text-sm text-stone-500">Cheesy garlic bread</p>
+                                </div>
+                                <span class="font-bold">₹149</span>
+                            </div>
+                            <div class="flex justify-between border-b pb-4">
+                                <div>
+                                    <h4 class="font-semibold">French Fries</h4>
+                                    <p class="text-sm text-stone-500">Crispy golden fries</p>
+                                </div>
+                                <span class="font-bold">₹129</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <div>
+                                    <h4 class="font-semibold">Veg Nuggets</h4>
+                                    <p class="text-sm text-stone-500">Crispy vegetable bites</p>
+                                </div>
+                                <span class="font-bold">₹179</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="border rounded-xl p-8">
+                        <h3 class="text-2xl font-bold text-orange-700">Main Course</h3>
+                        <div class="mt-6 space-y-6">
+                            <div class="flex justify-between border-b pb-4">
+                                <div>
+                                    <h4 class="font-semibold">Veg Fried Rice</h4>
+                                    <p class="text-sm text-stone-500">Rice with fresh vegetables</p>
+                                </div>
+                                <span class="font-bold">₹249</span>
+                            </div>
+                            <div class="flex justify-between border-b pb-4">
+                                <div>
+                                    <h4 class="font-semibold">Paneer Bowl</h4>
+                                    <p class="text-sm text-stone-500">Paneer with rice and vegetables</p>
+                                </div>
+                                <span class="font-bold">₹329</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <div>
+                                    <h4 class="font-semibold">Pasta Alfredo</h4>
+                                    <p class="text-sm text-stone-500">Creamy Italian pasta</p>
+                                </div>
+                                <span class="font-bold">₹349</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="border rounded-xl p-8">
+                        <h3 class="text-2xl font-bold text-orange-700">Desserts</h3>
+                        <div class="mt-6 space-y-6">
+                            <div class="flex justify-between border-b pb-4">
+                                <div>
+                                    <h4 class="font-semibold">Brownie</h4>
+                                    <p class="text-sm text-stone-500">Warm chocolate brownie</p>
+                                </div>
+                                <span class="font-bold">₹159</span>
+                            </div>
+                            <div class="flex justify-between border-b pb-4">
+                                <div>
+                                    <h4 class="font-semibold">Ice Cream</h4>
+                                    <p class="text-sm text-stone-500">Two scoop dessert</p>
+                                </div>
+                                <span class="font-bold">₹139</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <div>
+                                    <h4 class="font-semibold">Cheesecake</h4>
+                                    <p class="text-sm text-stone-500">Creamy classic cheesecake</p>
+                                </div>
+                                <span class="font-bold">₹219</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 5 -->
+        <div class="min-h-screen bg-orange-100 flex items-center">
+            <div class="max-w-7xl mx-auto px-6 w-full">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <img
+                        src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1100&q=80"
+                        class="w-full h-[540px] object-cover rounded-xl"
+                        alt="Healthy bowl"
+                    >
+
+                    <div>
+                        <p class="text-orange-600 font-semibold">HEALTHY CHOICES</p>
+                        <h2 class="text-5xl font-bold mt-3">
+                            Fresh Bowls For A Light And Tasty Meal
+                        </h2>
+                        <p class="mt-6 text-stone-600 text-lg leading-8">
+                            Our fresh bowls combine vegetables, grains, sauces and protein to create a filling
+                            meal without making it too heavy.
+                        </p>
+
+                        <div class="mt-8 grid grid-cols-2 gap-5">
+                            <div class="bg-white p-6 rounded-lg">
+                                <h3 class="font-bold text-xl">Veggie Bowl</h3>
+                                <p class="mt-2 text-stone-500">₹279</p>
+                            </div>
+                            <div class="bg-white p-6 rounded-lg">
+                                <h3 class="font-bold text-xl">Paneer Bowl</h3>
+                                <p class="mt-2 text-stone-500">₹329</p>
+                            </div>
+                            <div class="bg-white p-6 rounded-lg">
+                                <h3 class="font-bold text-xl">Corn Bowl</h3>
+                                <p class="mt-2 text-stone-500">₹249</p>
+                            </div>
+                            <div class="bg-white p-6 rounded-lg">
+                                <h3 class="font-bold text-xl">Green Bowl</h3>
+                                <p class="mt-2 text-stone-500">₹299</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 6 -->
+        <div class="min-h-screen bg-stone-900 text-white flex items-center">
+            <div class="max-w-7xl mx-auto px-6 w-full">
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <p class="text-orange-400 font-semibold">BEVERAGES</p>
+                        <h2 class="text-5xl font-bold mt-3">
+                            Refresh Your Day With Our Drinks
+                        </h2>
+                        <p class="mt-6 text-stone-300 text-lg leading-8">
+                            From chilled fruit drinks to hot coffee, choose a drink that matches your meal.
+                        </p>
+
+                        <div class="mt-8 space-y-5">
+                            <div class="flex justify-between border-b border-stone-700 pb-4">
+                                <span>Fresh Lime Soda</span>
+                                <b>₹99</b>
+                            </div>
+                            <div class="flex justify-between border-b border-stone-700 pb-4">
+                                <span>Cold Coffee</span>
+                                <b>₹149</b>
+                            </div>
+                            <div class="flex justify-between border-b border-stone-700 pb-4">
+                                <span>Fresh Orange Juice</span>
+                                <b>₹129</b>
+                            </div>
+                            <div class="flex justify-between">
+                                <span>Chocolate Shake</span>
+                                <b>₹179</b>
+                            </div>
+                        </div>
+                    </div>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=1100&q=80"
+                        class="w-full h-[540px] object-cover rounded-xl"
+                        alt="Refreshing drinks"
+                    >
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Specials Page -->
+    <section id="specials" class="pt-20">
+
+        <!-- Section 7 -->
+        <div class="min-h-screen bg-[url('https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1600&q=80')] bg-cover bg-center flex items-center">
+            <div class="w-full min-h-screen bg-black/55 flex items-center">
+                <div class="max-w-7xl mx-auto px-6 text-white">
+                    <p class="text-orange-400 font-semibold">SPECIAL OFFERS</p>
+                    <h2 class="text-5xl md:text-7xl font-bold mt-4 max-w-4xl">
+                        Great Food Deserves A Great Deal
+                    </h2>
+                    <p class="mt-6 text-lg max-w-2xl text-stone-200">
+                        Enjoy selected meals and combo offers at special prices throughout the week.
+                    </p>
+                    <button class="mt-8 bg-orange-600 px-8 py-3 rounded-md font-semibold">
+                        See Offers
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 8 -->
+        <div class="min-h-screen bg-orange-50 flex items-center">
+            <div class="max-w-7xl mx-auto px-6 w-full">
+                <div class="text-center">
+                    <p class="text-orange-600 font-semibold">COMBO DEALS</p>
+                    <h2 class="text-5xl font-bold mt-3">More Food, Better Value</h2>
+                </div>
+
+                <div class="grid md:grid-cols-3 gap-8 mt-14">
+                    <div class="bg-white rounded-xl overflow-hidden shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?auto=format&fit=crop&w=900&q=80" class="w-full h-72 object-cover" alt="Burger combo">
+                        <div class="p-7">
+                            <h3 class="text-2xl font-bold">Burger Combo</h3>
+                            <p class="mt-3 text-stone-600">Burger, fries and a chilled drink.</p>
+                            <div class="mt-5">
+                                <span class="text-stone-400 line-through">₹449</span>
+                                <span class="text-orange-600 font-bold text-xl ml-3">₹349</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl overflow-hidden shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=900&q=80" class="w-full h-72 object-cover" alt="Pizza combo">
+                        <div class="p-7">
+                            <h3 class="text-2xl font-bold">Pizza Combo</h3>
+                            <p class="mt-3 text-stone-600">Medium pizza with fries and drink.</p>
+                            <div class="mt-5">
+                                <span class="text-stone-400 line-through">₹599</span>
+                                <span class="text-orange-600 font-bold text-xl ml-3">₹479</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-white rounded-xl overflow-hidden shadow-sm">
+                        <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=900&q=80" class="w-full h-72 object-cover" alt="Dessert">
+                        <div class="p-7">
+                            <h3 class="text-2xl font-bold">Dessert Deal</h3>
+                            <p class="mt-3 text-stone-600">Choose any two desserts at a special price.</p>
+                            <div class="mt-5">
+                                <span class="text-stone-400 line-through">₹398</span>
+                                <span class="text-orange-600 font-bold text-xl ml-3">₹299</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 9 -->
+        <div class="min-h-screen bg-stone-900 text-white flex items-center">
+            <div class="max-w-5xl mx-auto px-6 text-center">
+                <p class="text-orange-400 font-semibold">BOOK YOUR TABLE</p>
+                <h2 class="text-5xl md:text-6xl font-bold mt-4">
+                    Make Your Next Meal Special
+                </h2>
+                <p class="mt-6 text-stone-300 text-lg leading-8">
+                    Bring your family, friends or someone special and enjoy freshly prepared food
+                    in a relaxed atmosphere at Urban Bites.
+                </p>
+
+                <div class="grid md:grid-cols-3 gap-5 mt-10">
+                    <input
+                        type="text"
+                        placeholder="Your Name"
+                        class="bg-white text-stone-800 p-4 rounded-md"
+                    >
+                    <input
+                        type="email"
+                        placeholder="Your Email"
+                        class="bg-white text-stone-800 p-4 rounded-md"
+                    >
+                    <input
+                        type="text"
+                        placeholder="Number of Guests"
+                        class="bg-white text-stone-800 p-4 rounded-md"
+                    >
+                </div>
+
+                <button class="mt-7 bg-orange-600 px-9 py-3 rounded-md font-semibold hover:bg-orange-700">
+                    Reserve Table
+                </button>
+
+                <div class="mt-12 border-t border-stone-700 pt-8">
+                    <p class="text-stone-400">45 Anna Nagar, Chennai</p>
+                    <p class="text-stone-400 mt-2">+91 98765 43210</p>
+                    <p class="text-stone-400 mt-2">hello@urbanbites.com</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+</body>
+</html>
