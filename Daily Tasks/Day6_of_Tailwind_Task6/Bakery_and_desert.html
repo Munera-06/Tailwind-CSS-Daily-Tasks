@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew & Bake | Bakery & Desserts</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-[#faf7f2] text-gray-800">
+
+    <nav class="fixed top-0 left-0 w-full z-50 bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+            <h1 class="text-2xl font-bold text-[#8b4a2f]">Brew & Bake</h1>
+
+            <div class="hidden md:flex gap-8 text-gray-700">
+                <a href="#home" class="hover:text-[#8b4a2f]">Home</a>
+                <a href="#specials" class="hover:text-[#8b4a2f]">Specials</a>
+                <a href="#bakery" class="hover:text-[#8b4a2f]">Bakery</a>
+                <a href="#visit" class="hover:text-[#8b4a2f]">Visit Us</a>
+            </div>
+
+            <button class="bg-[#8b4a2f] text-white px-5 py-2 rounded-lg">
+                Order Now
+            </button>
+        </div>
+    </nav>
+
+    <section id="home" class="min-h-screen pt-20 bg-[#f3e6d8]">
+        <div class="max-w-7xl mx-auto px-6 min-h-screen grid md:grid-cols-2 items-center gap-12">
+
+            <div>
+                <p class="text-[#8b4a2f] font-semibold tracking-widest">
+                    FRESH FROM OUR OVEN
+                </p>
+
+                <h2 class="text-5xl md:text-7xl font-bold leading-tight mt-4">
+                    Good Mornings Start With Something Fresh
+                </h2>
+
+                <p class="text-gray-600 text-lg mt-6 max-w-xl">
+                    Freshly baked breads, warm pastries and homemade desserts
+                    prepared every morning with simple ingredients.
+                </p>
+
+                <div class="mt-8 flex gap-4">
+                    <button class="bg-[#8b4a2f] text-white px-7 py-3 rounded-lg">
+                        Explore Menu
+                    </button>
+
+                    <button class="border border-[#8b4a2f] text-[#8b4a2f] px-7 py-3 rounded-lg">
+                        Our Story
+                    </button>
+                </div>
+            </div>
+
+            <div class="h-[580px]">
+                <img
+                    src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1000&q=80"
+                    class="w-full h-full object-cover rounded-3xl"
+                    alt="Fresh bakery bread"
+                >
+            </div>
+
+        </div>
+    </section>
+
+    <section id="specials" class="min-h-screen flex items-center bg-white py-24">
+        <div class="max-w-7xl mx-auto px-6 w-full">
+
+            <div class="flex flex-col md:flex-row md:justify-between md:items-end mb-12">
+                <div>
+                    <p class="text-[#8b4a2f] font-semibold">
+                        TODAY'S SPECIAL
+                    </p>
+
+                    <h2 class="text-4xl md:text-5xl font-bold mt-3">
+                        Fresh Picks For You
+                    </h2>
+                </div>
+
+                <p class="text-gray-500 max-w-md mt-4 md:mt-0">
+                    A few customer favorites made fresh and ready for your
+                    breakfast, evening tea or dessert break.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+
+                <div class="border border-gray-200 rounded-2xl overflow-hidden">
+                    <img
+                        src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=800&q=80"
+                        class="w-full h-72 object-cover"
+                        alt="Croissant"
+                    >
+
+                    <div class="p-6">
+                        <span class="text-sm text-[#8b4a2f] font-semibold">
+                            BREAKFAST
+                        </span>
+
+                        <h3 class="text-2xl font-bold mt-2">
+                            Butter Croissant
+                        </h3>
+
+                        <p class="text-gray-500 mt-3">
+                            Light, flaky and freshly baked every morning.
+                        </p>
+
+                        <div class="flex justify-between items-center mt-6">
+                            <span class="text-xl font-bold">₹149</span>
+                            <button class="bg-[#8b4a2f] text-white px-5 py-2 rounded-lg">
+                                Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border border-gray-200 rounded-2xl overflow-hidden">
+                    <img
+                        src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80"
+                        class="w-full h-72 object-cover"
+                        alt="Chocolate cake"
+                    >
+
+                    <div class="p-6">
+                        <span class="text-sm text-[#8b4a2f] font-semibold">
+                            DESSERT
+                        </span>
+
+                        <h3 class="text-2xl font-bold mt-2">
+                            Chocolate Cake
+                        </h3>
+
+                        <p class="text-gray-500 mt-3">
+                            Soft chocolate cake with a rich creamy layer.
+                        </p>
+
+                        <div class="flex justify-between items-center mt-6">
+                            <span class="text-xl font-bold">₹399</span>
+                            <button class="bg-[#8b4a2f] text-white px-5 py-2 rounded-lg">
+                                Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border border-gray-200 rounded-2xl overflow-hidden">
+                    <img
+                        src="https://images.unsplash.com/photo-1587668178277-295251f900ce?auto=format&fit=crop&w=800&q=80"
+                        class="w-full h-72 object-cover"
+                        alt="Cookies"
+                    >
+
+                    <div class="p-6">
+                        <span class="text-sm text-[#8b4a2f] font-semibold">
+                            SNACK
+                        </span>
+
+                        <h3 class="text-2xl font-bold mt-2">
+                            Choco Chip Cookies
+                        </h3>
+
+                        <p class="text-gray-500 mt-3">
+                            Crunchy edges with soft chocolate-filled centers.
+                        </p>
+
+                        <div class="flex justify-between items-center mt-6">
+                            <span class="text-xl font-bold">₹199</span>
+                            <button class="bg-[#8b4a2f] text-white px-5 py-2 rounded-lg">
+                                Add
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="bakery" class="min-h-screen flex items-center bg-[#29211d] text-white py-24">
+        <div class="max-w-7xl mx-auto px-6 w-full">
+
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+
+                <div class="order-2 md:order-1">
+                    <img
+                        src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?auto=format&fit=crop&w=1000&q=80"
+                        class="w-full h-[580px] object-cover rounded-2xl"
+                        alt="Baking ingredients"
+                    >
+                </div>
+
+                <div class="order-1 md:order-2">
+                    <p class="text-orange-300 font-semibold">
+                        HOW WE BAKE
+                    </p>
+
+                    <h2 class="text-4xl md:text-6xl font-bold mt-4 leading-tight">
+                        Simple Ingredients. Honest Baking.
+                    </h2>
+
+                    <p class="text-gray-300 text-lg mt-6">
+                        We believe good bakery food does not need complicated
+                        ingredients. Our recipes focus on fresh products,
+                        balanced flavors and careful preparation.
+                    </p>
+
+                    <div class="mt-8 space-y-5">
+
+                        <div class="flex gap-5 border-b border-gray-700 pb-5">
+                            <span class="text-orange-300 text-2xl font-bold">01</span>
+                            <div>
+                                <h3 class="text-xl font-semibold">Fresh Ingredients</h3>
+                                <p class="text-gray-400 mt-1">
+                                    We choose quality ingredients for every batch.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-5 border-b border-gray-700 pb-5">
+                            <span class="text-orange-300 text-2xl font-bold">02</span>
+                            <div>
+                                <h3 class="text-xl font-semibold">Small Batches</h3>
+                                <p class="text-gray-400 mt-1">
+                                    Smaller batches help us keep every item fresh.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="flex gap-5">
+                            <span class="text-orange-300 text-2xl font-bold">03</span>
+                            <div>
+                                <h3 class="text-xl font-semibold">Made Every Morning</h3>
+                                <p class="text-gray-400 mt-1">
+                                    Most of our popular items are baked fresh daily.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="min-h-screen flex items-center bg-[#f7eee5] py-24">
+        <div class="max-w-7xl mx-auto px-6 w-full">
+
+            <div class="grid md:grid-cols-12 gap-5 items-center">
+
+                <div class="md:col-span-5">
+                    <img
+                        src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=80"
+                        class="w-full h-[520px] object-cover rounded-3xl"
+                        alt="Fresh donuts"
+                    >
+                </div>
+
+                <div class="md:col-span-7 md:pl-10">
+                    <p class="text-[#8b4a2f] font-semibold">
+                        SWEET MOMENTS
+                    </p>
+
+                    <h2 class="text-4xl md:text-6xl font-bold mt-4">
+                        A Little Treat Makes The Day Better
+                    </h2>
+
+                    <p class="text-gray-600 text-lg mt-6 max-w-2xl">
+                        From simple tea-time snacks to celebration cakes,
+                        there is always something sweet waiting at Brew & Bake.
+                    </p>
+
+                    <div class="grid sm:grid-cols-2 gap-5 mt-8">
+
+                        <div class="bg-white p-6 rounded-2xl">
+                            <h3 class="text-xl font-bold">Cupcakes</h3>
+                            <p class="text-gray-500 mt-2">
+                                Small treats with different flavors and toppings.
+                            </p>
+                        </div>
+
+                        <div class="bg-white p-6 rounded-2xl">
+                            <h3 class="text-xl font-bold">Cheesecakes</h3>
+                            <p class="text-gray-500 mt-2">
+                                Creamy desserts with a soft biscuit base.
+                            </p>
+                        </div>
+
+                        <div class="bg-white p-6 rounded-2xl">
+                            <h3 class="text-xl font-bold">Donuts</h3>
+                            <p class="text-gray-500 mt-2">
+                                Freshly prepared with simple sweet toppings.
+                            </p>
+                        </div>
+
+                        <div class="bg-white p-6 rounded-2xl">
+                            <h3 class="text-xl font-bold">Brownies</h3>
+                            <p class="text-gray-500 mt-2">
+                                Soft chocolate brownies for every chocolate lover.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="min-h-screen flex items-center bg-white py-24">
+        <div class="max-w-7xl mx-auto px-6 w-full">
+
+            <div class="text-center mb-12">
+                <p class="text-[#8b4a2f] font-semibold">
+                    OUR DAILY MENU
+                </p>
+
+                <h2 class="text-4xl md:text-5xl font-bold mt-3">
+                    Pick Your Favorite
+                </h2>
+            </div>
+
+            <div class="max-w-4xl mx-auto border-t border-gray-200">
+
+                <div class="py-7 border-b border-gray-200 flex justify-between gap-8">
+                    <div>
+                        <h3 class="text-xl font-bold">Classic Sourdough</h3>
+                        <p class="text-gray-500 mt-2">
+                            Crispy outside with a soft and fresh center.
+                        </p>
+                    </div>
+                    <span class="font-bold text-lg">₹179</span>
+                </div>
+
+                <div class="py-7 border-b border-gray-200 flex justify-between gap-8">
+                    <div>
+                        <h3 class="text-xl font-bold">Cinnamon Roll</h3>
+                        <p class="text-gray-500 mt-2">
+                            Soft roll with cinnamon and light cream topping.
+                        </p>
+                    </div>
+                    <span class="font-bold text-lg">₹159</span>
+                </div>
+
+                <div class="py-7 border-b border-gray-200 flex justify-between gap-8">
+                    <div>
+                        <h3 class="text-xl font-bold">Blueberry Muffin</h3>
+                        <p class="text-gray-500 mt-2">
+                            Soft muffin filled with fresh blueberry flavor.
+                        </p>
+                    </div>
+                    <span class="font-bold text-lg">₹129</span>
+                </div>
+
+                <div class="py-7 border-b border-gray-200 flex justify-between gap-8">
+                    <div>
+                        <h3 class="text-xl font-bold">Red Velvet Slice</h3>
+                        <p class="text-gray-500 mt-2">
+                            Soft red velvet sponge with cream cheese frosting.
+                        </p>
+                    </div>
+                    <span class="font-bold text-lg">₹249</span>
+                </div>
+
+                <div class="py-7 border-b border-gray-200 flex justify-between gap-8">
+                    <div>
+                        <h3 class="text-xl font-bold">Caramel Latte</h3>
+                        <p class="text-gray-500 mt-2">
+                            Smooth coffee with milk and caramel flavor.
+                        </p>
+                    </div>
+                    <span class="font-bold text-lg">₹189</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="visit" class="min-h-screen flex items-center bg-[#d9c0a9] py-24">
+        <div class="max-w-7xl mx-auto px-6 w-full">
+
+            <div class="grid md:grid-cols-2 gap-10 items-center">
+
+                <div class="bg-white p-8 md:p-12 rounded-3xl">
+                    <p class="text-[#8b4a2f] font-semibold">
+                        COME SAY HELLO
+                    </p>
+
+                    <h2 class="text-4xl md:text-6xl font-bold mt-4">
+                        Your Cozy Bakery Corner
+                    </h2>
+
+                    <p class="text-gray-600 text-lg mt-6">
+                        Stop by for a warm cup of coffee, fresh bread and
+                        something sweet before you head home.
+                    </p>
+
+                    <div class="mt-8 space-y-6">
+
+                        <div>
+                            <p class="text-sm text-gray-500">ADDRESS</p>
+                            <p class="font-semibold mt-1">
+                                24 Market Street, Chennai
+                            </p>
+                        </div>
+
+                        <div>
+                            <p class="text-sm text-gray-500">OPENING HOURS</p>
+                            <p class="font-semibold mt-1">
+                                Monday - Sunday | 8:00 AM - 9:00 PM
+                            </p>
+                        </div>
+
+                        <div>
+                            <p class="text-sm text-gray-500">CONTACT</p>
+                            <p class="font-semibold mt-1">
+                                +91 98765 43210
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <button class="mt-8 bg-[#8b4a2f] text-white px-7 py-3 rounded-lg">
+                        Get Directions
+                    </button>
+                </div>
+
+                <div class="h-[560px]">
+                    <img
+                        src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&w=1000&q=80"
+                        class="w-full h-full object-cover rounded-3xl"
+                        alt="Cozy cafe interior"
+                    >
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="min-h-screen flex items-center bg-[#29211d] text-white">
+        <div class="max-w-5xl mx-auto px-6 text-center">
+
+            <p class="text-orange-300 font-semibold tracking-widest">
+                FRESHLY BAKED. SIMPLY GOOD.
+            </p>
+
+            <h2 class="text-5xl md:text-7xl font-bold mt-6 leading-tight">
+                Come Hungry,
+                Leave Happy.
+            </h2>
+
+            <p class="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mt-7">
+                Fresh breads, homemade desserts and warm coffee are waiting
+                for you at Brew & Bake.
+            </p>
+
+            <div class="mt-10 flex flex-col sm:flex-row justify-center gap-4">
+                <button class="bg-[#8b4a2f] px-8 py-3 rounded-lg">
+                    Order Online
+                </button>
+
+                <button class="border border-gray-500 px-8 py-3 rounded-lg">
+                    Visit Our Bakery
+                </button>
+            </div>
+
+            <div class="mt-24 pt-7 border-t border-gray-700 flex flex-col md:flex-row justify-between gap-4 text-gray-400">
+                <p>© 2026 Brew & Bake</p>
+                <p>Baked Fresh Every Day.</p>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+</html>
