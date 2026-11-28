@@ -1,4 +1,4 @@
-<img width="940" height="390" alt="Output5" src="https://github.com/user-attachments/assets/1054d6f0-9793-4937-bc22-5273267bd468" />Day 4 – Tailwind CSS Task 4: Bites
+Day 4 – Tailwind CSS Task 4: Bites
 📌 Project Overview
 
 This is my Day 4 Tailwind CSS Task, created using HTML and Tailwind CSS.
